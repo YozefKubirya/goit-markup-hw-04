@@ -34,6 +34,7 @@ html{
    --back-round-color-footer-hero:#2F303A;
    --back-round-color-section:#E5E5E5;
    --back-round-color-team:#F5F4FA;
+   --color-icon:#757575;
 }
 body{background-color:var(--back-round-color) ;
    color:var(--primary-text-color);
@@ -411,28 +412,27 @@ body{background-color:var(--back-round-color) ;
   padding-bottom: 30px;
   margin-top: 16px;
   justify-content: space-between;
+  
    }
-.area-icon{
+ .area-icon{
       display: flex;
       justify-content: center;
       align-items: center;
       width: 44px;
       height: 44px;
       border-radius: 50% 50%;
-      /* color: var(--accent-text-color-white);
-       */
+      color: var(--color-icon);
       }
- .social-link{
-fill: var(--primary-text-color); ;
-}
-.area-icon:hover,:focus{
+      
+   .social-link{
+   fill: currentColor;
+   }
+ 
+.area-icon:hover,
+.area-icon:focus{
    color: var(--accent-text-color-white);
-   background-color:  var(--accent-text-color);;
+   background-color:  var(--accent-text-color);
 }
-.social-link:hover,:focus{
-fill: var(--accent-text-color-white);
-}
-
 
 /* footer */
 .footer{
