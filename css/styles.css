@@ -404,6 +404,7 @@ body{background-color:var(--back-round-color) ;
    /* identical to box height */
    letter-spacing: 0.03em;
 }
+/* icon-command */
 .social-list{
   display: flex;
   list-style: none;
@@ -433,7 +434,37 @@ body{background-color:var(--back-round-color) ;
    color: var(--accent-text-color-white);
    background-color:  var(--accent-text-color);
 }
+/* constant-clients */
 
+.section-clients{
+   margin-top: 0;
+      margin-bottom: 50px;
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+.constant-clients {
+   display: flex;
+
+
+}
+.constant-clients .link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      outline: 1px solid var(--primary-text-color);
+      border-radius: 4px;
+      width: 170px;
+      height: 92px;
+      margin-right: 30px;
+      
+}
+.icon-taglinehere{
+   
+}
 /* footer */
 .footer{
    padding-top: 60px;
