@@ -149,7 +149,8 @@ body{background-color:var(--back-round-color) ;
    margin-right: 50px;
 }
 .contacts .link{
-   display: block;
+   display: flex;
+   align-items: center;
    padding-top: 32px;
    padding-bottom: 32px;
    color: var(--primary-text-color);
@@ -163,21 +164,24 @@ body{background-color:var(--back-round-color) ;
    color: var(--accent-text-color);
 }
 
-/* main */
-/* hero */
-/* .overlay{
-   height: 600px;
-   max-width: 1600px;
-   margin-left: auto;
-   margin-right: auto;
-   background-image: linear-gradient(to right,rgba(47,48,58,0.4), rbga(47,48,58,0.4)),  
-   url('../imagesforhomwork/herobaner.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-color: var(--back-round-color-footer-hero);
+/* envelope-icon */
+.envelope-icon{
+  fill: currentColor;
+  margin-right: 10px;}
 
-} */
+.envelope-icon:hover{
+   fill: currentColor;}
+
+/* celephone-icon */
+.celephone-icon{
+   fill: currentColor;
+   margin-right: 10px;
+}
+.celephone-icon:hover{
+   fill: currentColor;
+}
+
+/*  hero*/
 .hero{
    height: 600px;
    max-width: 1600px;
@@ -188,8 +192,6 @@ body{background-color:var(--back-round-color) ;
    background-repeat: no-repeat;
    background-position: center;
    background-color: var(--back-round-color-footer-hero);
-   
-   /* background-color:var(--back-round-color-footer-hero) ; */
    padding-top: 200px;
    padding-bottom: 200px;
    text-align: center;
@@ -284,29 +286,20 @@ body{background-color:var(--back-round-color) ;
    display: flex;
    justify-content: center;
    }
-.features-list .item::before{
-   display: block;
-   content: ' ';
+   /* icon-features */
+.icon-features{
+   width: 270px;
    height: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    /* outline: 1px solid red; */
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
    background-color: var(--back-round-color-team);
+   margin-bottom: 30px;
+   border-radius: 4px;
 }
-.icon-plane::before{ 
-   background-image: url(../imagesforhomwork/plane.svg);
-}
-.icon-clock::before{
-   background-image: url(../imagesforhomwork/clock2.svg);
-}
-.icon-computer::before{
-   background-image: url(../imagesforhomwork/computer3.svg);
-}
-.icon-astronaut::before{
-   background-image: url(../imagesforhomwork/astronaut\ 1.svg);
-}
-  
+
+  /* features-list .item */
 .features-list .item{
       width: 270px;
       
@@ -384,7 +377,10 @@ body{background-color:var(--back-round-color) ;
    margin-right: 30px;
 }
 .occupation{
-   padding: 30px ;
+   padding-top: 30px ;
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-bottom: 0;
   
 }
 .comands-list .title{
@@ -407,6 +403,36 @@ body{background-color:var(--back-round-color) ;
    /* identical to box height */
    letter-spacing: 0.03em;
 }
+.social-list{
+  display: flex;
+  list-style: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+  margin-top: 16px;
+  justify-content: space-between;
+   }
+.area-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50% 50%;
+      color: var(--accent-text-color-white);
+      
+      }
+ .social-link{
+fill: var(--primary-text-color); ;
+}
+.area-icon:hover,:focus{
+   background-color:  var(--accent-text-color);;
+}
+.social-link:hover,:focus{
+fill: currentColor;
+}
+
+
 /* footer */
 .footer{
    padding-top: 60px;
