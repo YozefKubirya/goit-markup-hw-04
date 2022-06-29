@@ -419,17 +419,18 @@ body{background-color:var(--back-round-color) ;
       width: 44px;
       height: 44px;
       border-radius: 50% 50%;
-      color: var(--accent-text-color-white);
-      
+      /* color: var(--accent-text-color-white);
+       */
       }
  .social-link{
 fill: var(--primary-text-color); ;
 }
 .area-icon:hover,:focus{
+   color: var(--accent-text-color-white);
    background-color:  var(--accent-text-color);;
 }
 .social-link:hover,:focus{
-fill: currentColor;
+fill: var(--accent-text-color-white);
 }
 
 
