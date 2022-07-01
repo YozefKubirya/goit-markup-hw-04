@@ -86,7 +86,7 @@ body{background-color:var(--back-round-color) ;
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 1. 19;
+   line-height: 1.19;
    letter-spacing: 0.03em;
    text-decoration: none;
 }
@@ -363,6 +363,11 @@ body{background-color:var(--back-round-color) ;
 }
 
 /* comands */
+.section-team{
+   padding-top: 94px;
+   padding-bottom: 94px;
+   background-color: var(--back-round-color-team);
+}
 .section-comand{
    margin-top: 0;
    margin-bottom: 50px;
@@ -521,7 +526,7 @@ body{background-color:var(--back-round-color) ;
 
 /* footer logo */
 
-.footer .logo {
+ .logo {
    margin-top: 0;
    margin-bottom: 0;
    font-family: 'Raleway', sans-serif;
@@ -533,7 +538,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--accent-text-color);
 }
 
-.footer .logo-accent {
+.footer-studio {
    margin-top: 0;
    margin-bottom: 0;
    color: var(--accent-text-color-white);
